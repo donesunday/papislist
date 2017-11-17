@@ -57,3 +57,6 @@ gem 'devise'
 
 # Management
 gem 'rails_admin', '~> 1.2'
+
+# Bootstrap
+gem 'bootstrap', '~> 4.0.0.beta2.1'
