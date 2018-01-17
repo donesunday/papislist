@@ -61,6 +61,7 @@ gem 'rails_admin', '~> 1.2'
 
 # Bootstrap
 gem 'bootstrap', '~> 4.0.0.beta2.1'
+gem "font-awesome-rails"
 
 # Google sheet
 gem 'google_drive'

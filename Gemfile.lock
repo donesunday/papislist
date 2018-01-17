@@ -275,6 +275,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2)
   devise
   dotenv-rails
+  font-awesome-rails
   google_drive
   jbuilder (~> 2.5)
   jquery-rails
