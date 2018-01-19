@@ -8,10 +8,9 @@
   <div class="container">
     <h1 class="jumbotron-heading">Public API's from every country</h1>
     <p class="lead text-muted">We believe the world can be better if we have data at our disposal. Technology will shape the world to the extent information is available so use it wisely.</p>
-    <form action="<%= apis_path %>" method="get" class="form-inline justify-content-center search-form">
-      <input type="text" name="query" placeholder="ex. CTT" class="form-control">
-      <input type="submit" value="Search" class="btn btn-primary">
-    </form>
+    <p>
+      Search: <%= params["query"] %>
+    </p>
   </div>
 </section>
 

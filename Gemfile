@@ -65,3 +65,6 @@ gem "font-awesome-rails"
 
 # Google sheet
 gem 'google_drive'
+
+# Full text search
+gem 'pg_search'
