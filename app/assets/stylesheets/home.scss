@@ -41,6 +41,17 @@
   }
 }
 
+.countries {
+  margin-bottom: 30px;
+
+  .country {
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 4px 8px;
+  }
+}
+
 .btn {
   cursor: pointer;
 }

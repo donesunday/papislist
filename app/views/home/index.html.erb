@@ -17,6 +17,20 @@
 
 <div class="album text-muted">
   <div class="container">
+    
+    <div class="row">
+      <div class="col-md-12">
+        <div class="countries">
+          <% if !@country %>
+            <% @countries.each do |country| %>
+              <a href="?country=<%= country.slug %>"><div class="country"><%= country.name %></div></a>
+            <% end %>
+          <% else %>
+            <div class="country"><%= @country.name %></div>
+          <% end %>
+        </div>
+      </div>
+    </div>
 
     <div class="row">
       <% @apis.each do |api| %>
