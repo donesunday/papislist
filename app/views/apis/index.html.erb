@@ -1,9 +1,3 @@
-<div class="navbar navbar-inverse bg-inverse">
-  <div class="container d-flex justify-content-between">
-    <a href="<%= root_url %>" class="navbar-brand">Countries API's</a>
-  </div>
-</div>
-
 <section class="jumbotron text-center">
   <div class="container">
     <h1 class="jumbotron-heading">Public API's from every country</h1>
@@ -22,7 +16,7 @@
         <div class="col-md-4 api-col">
           <div class="card">
             <h5>
-              <a href="<%= api.link %>" target="_blank"><%= api.name %></a> 
+              <a href="<%= api.link %>?utm_source=PapisList" target="_blank"><%= api.name %></a> 
               <% if api.https %><i class="fa fa-lock api-info-icon" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="HTTPS secure"></i><% end %> 
               <% if api.paid %><i class="fa fa-dollar api-info-icon" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Paid access"></i><% end %>
             </h5>
@@ -35,13 +29,3 @@
 
   </div>
 </div>
-
-<footer class="text-muted">
-  <div class="container">
-    <p class="float-right">
-      <a href="#">Back to top</a>
-    </p>
-    <p>Countries API's is brought to you by <a href="http://twitter.com/jackveiga">Jack Veiga</a> & <a href="http://twitter.com/alvesjtiago">Tiago Alves</a>.</p>
-    <p>Follow us on <a href="http://twitter.com/countries-apis">Twitter</a> for updates.</p>
-  </div>
-</footer>

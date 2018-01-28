@@ -4,6 +4,13 @@
 
 .navbar {
   margin-bottom: 0;
+
+  .navbar-brand {
+    img {
+      zoom: 50%;
+      width: 293px;
+    }
+  }
 }
 
 .jumbotron {
