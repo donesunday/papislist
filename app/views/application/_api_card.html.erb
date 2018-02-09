@@ -1,0 +1,9 @@
+<div class="card">
+  <h5>
+    <a href="<%= api.link %>?utm_source=PapisList" target="_blank"><%= api.name %></a> 
+    <% if api.https %><i class="fa fa-lock api-info-icon" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="HTTPS secure"></i><% end %> 
+    <% if api.paid %><i class="fa fa-dollar api-info-icon" aria-hidden="true" data-toggle="tooltip" data-placement="top" title="Paid access"></i><% end %>
+  </h5>
+  <p class="card-text"><%= api.description %></p>
+  <div class="country"><%= api.country.name %></div>
+</div>
