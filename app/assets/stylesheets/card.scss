@@ -3,6 +3,16 @@
   font-weight: 700;
 }
 
+.api-title {
+  margin-right: 5px;
+}
+
 .api-info-icon {
-  margin-left: 5px;
+  margin-left: 2px;
+  font-size: 14px;
+  color: #ccc;
+
+  &:hover {
+    color: inherit;
+  }
 }
