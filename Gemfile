@@ -57,7 +57,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'devise'
 
 # Management
-gem 'rails_admin', '~> 1.2'
+gem 'rails_admin', '~> 1.4'
 
 # Bootstrap
 gem 'bootstrap', '~> 4.0.0.beta2.1'
