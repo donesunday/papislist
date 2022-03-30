@@ -163,7 +163,8 @@ GEM
       arel (>= 6)
     popper_js (1.12.5)
     public_suffix (3.0.1)
-    puma (3.10.0)
+    puma (4.3.12)
+      nio4r (~> 2.0)
     rack (2.0.3)
     rack-pjax (1.0.0)
       nokogiri (~> 1.5)
@@ -286,7 +287,7 @@ DEPENDENCIES
   listen (~> 3.0.5)
   pg (~> 0.18)
   pg_search
-  puma (~> 3.0)
+  puma (~> 4.3)
   rails (~> 5.0.6)
   rails_admin (~> 1.2)
   sass-rails (~> 5.0)
